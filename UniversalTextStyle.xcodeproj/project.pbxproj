@@ -14,6 +14,8 @@
 		AF97E1F5212162E200D0A6E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF97E1F3212162E200D0A6E9 /* LaunchScreen.storyboard */; };
 		AF97E200212162E200D0A6E9 /* UniversalTextStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF97E1FF212162E200D0A6E9 /* UniversalTextStyleTests.swift */; };
 		AF97E20B212162E200D0A6E9 /* UniversalTextStyleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF97E20A212162E200D0A6E9 /* UniversalTextStyleUITests.swift */; };
+		AF97E219212168BC00D0A6E9 /* NBCStyleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF97E218212168BC00D0A6E9 /* NBCStyleLabel.swift */; };
+		AFF79392212EC62500BA7752 /* NBCStyleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF79391212EC62500BA7752 /* NBCStyleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AF97E206212162E200D0A6E9 /* UniversalTextStyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversalTextStyleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF97E20A212162E200D0A6E9 /* UniversalTextStyleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalTextStyleUITests.swift; sourceTree = "<group>"; };
 		AF97E20C212162E200D0A6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF97E218212168BC00D0A6E9 /* NBCStyleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBCStyleLabel.swift; sourceTree = "<group>"; };
+		AFF79391212EC62500BA7752 /* NBCStyleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBCStyleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				AF97E1F1212162E200D0A6E9 /* Assets.xcassets */,
 				AF97E1F3212162E200D0A6E9 /* LaunchScreen.storyboard */,
 				AF97E1F6212162E200D0A6E9 /* Info.plist */,
+				AFF79391212EC62500BA7752 /* NBCStyleButton.swift */,
+				AF97E218212168BC00D0A6E9 /* NBCStyleLabel.swift */,
 			);
 			path = UniversalTextStyle;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF97E1ED212162E000D0A6E9 /* ViewController.swift in Sources */,
+				AF97E219212168BC00D0A6E9 /* NBCStyleLabel.swift in Sources */,
 				AF97E1EB212162E000D0A6E9 /* AppDelegate.swift in Sources */,
+				AFF79392212EC62500BA7752 /* NBCStyleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
